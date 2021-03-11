@@ -7,7 +7,7 @@ jobs:
       - pcs/scan_image:
           prisma_cloud_compute_password: prisma_cloud_compute_password
           prisma_cloud_compute_url: http://console-master-test.lcastro.demo.twistlock.com:8083
-          prisma_cloud_compute_username: lcastro
+          prisma_cloud_compute_username: lcastro-ci
           prisma_cloud_scan_image: nginx
 orbs:
   pcs: prisma_cloud/devops_security@3.0.0
