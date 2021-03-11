@@ -6,7 +6,7 @@ jobs:
       - run: docker pull nginx
       - pcs/scan_image:
           prisma_cloud_compute_password: prisma_cloud_compute_password
-          prisma_cloud_compute_url: https://us-east1.cloud.twistlock.com/us-1-111573457
+          prisma_cloud_compute_url: https://us-east1.cloud.twistlock.com/us-1-111573457:8083
           prisma_cloud_compute_username: 9da38f4a-67ed-4d4d-8ce0-7cf929333f51
           prisma_cloud_scan_image: nginx
 orbs:
